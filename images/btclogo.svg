@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="365" height="192" viewBox="0 0 365 192">
+  <defs>
+    <filter id="Rectangle_44" x="0" y="0" width="365" height="192" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-color="#0d1c63" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_2815" data-name="Group 2815" transform="translate(-1413 -162)">
+    <g transform="matrix(1, 0, 0, 1, 1413, 162)" filter="url(#Rectangle_44)">
+      <rect id="Rectangle_44-2" data-name="Rectangle 44" width="275" height="102" rx="51" transform="translate(45 35)" fill="#fff"/>
+    </g>
+    <text id="Bitcoin" transform="translate(1552 244)" fill="#181b31" font-size="23" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Bitcoin</tspan></text>
+    <text id="BTC" transform="translate(1646 243)" fill="#787ea8" font-size="16" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">BTC</tspan></text>
+    <text id="_46705.14" data-name="£46705.14" transform="translate(1552 271)" fill="#181b31" font-size="17" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">£46705.14</tspan></text>
+    <path id="Path_7270" data-name="Path 7270" d="M36.612,0A36.612,36.612,0,1,1,0,36.612,36.612,36.612,0,0,1,36.612,0Z" transform="translate(1473.388 211.388)" fill="#ffa303" opacity="0.09"/>
+    <g id="Group_2811" data-name="Group 2811" transform="translate(1483.65 221.65)">
+      <path id="Path_7269" data-name="Path 7269" d="M26.35,0A26.35,26.35,0,1,1,0,26.35,26.35,26.35,0,0,1,26.35,0Z" transform="translate(0)" fill="#ffa303"/>
+      <g id="bitcoin-logo" transform="translate(18.141 14.591)">
+        <path id="Path_1" data-name="Path 1" d="M81.664,11.92a4.1,4.1,0,0,0-2.39-1.406A3.237,3.237,0,0,0,81.063,6.99a3.482,3.482,0,0,0-.5-1.563,3.128,3.128,0,0,0-1.127-1.065,6.2,6.2,0,0,0-1.543-.615,12.173,12.173,0,0,0-1.912-.307V0h-2.1V3.345q-.546,0-1.666.027V0h-2.1V3.441q-.451.014-1.324.014l-2.895-.014V5.68h1.516a1.085,1.085,0,0,1,1.215.928v3.919a1.388,1.388,0,0,1,.219.014h-.219V16.03a.729.729,0,0,1-.792.7H66.316l-.423,2.5h2.731q.259,0,.751.006t.737.007v3.482h2.1V19.28q.573.014,1.666.014v3.427h2.1V19.239a16.348,16.348,0,0,0,1.987-.2,8.085,8.085,0,0,0,1.659-.471,4.477,4.477,0,0,0,1.324-.8,3.77,3.77,0,0,0,.881-1.215,5.166,5.166,0,0,0,.443-1.707A4.045,4.045,0,0,0,81.664,11.92ZM72.256,5.83l.539-.007.737-.014q.294-.007.792.034a7.534,7.534,0,0,1,.84.109,4.677,4.677,0,0,1,.751.225,2.035,2.035,0,0,1,.655.382,1.9,1.9,0,0,1,.416.574,1.79,1.79,0,0,1,.171.8,1.9,1.9,0,0,1-.123.7,1.312,1.312,0,0,1-.369.526,3.735,3.735,0,0,1-.505.369,2.314,2.314,0,0,1-.662.253q-.4.1-.7.15a5.756,5.756,0,0,1-.751.075q-.451.02-.683.027t-.635,0l-.471-.007V5.83h0ZM78,15.129a1.941,1.941,0,0,1-.334.546,1.9,1.9,0,0,1-.539.409,4.627,4.627,0,0,1-.648.287,5.22,5.22,0,0,1-.758.191q-.444.082-.779.116t-.8.055q-.464.02-.724.02t-.655-.007l-.505-.007V12.125q.109,0,.649-.014t.881-.013q.341,0,.942.041a8.051,8.051,0,0,1,1.01.123,6.643,6.643,0,0,1,.894.253,2.593,2.593,0,0,1,.785.416,2.049,2.049,0,0,1,.505.628A1.951,1.951,0,0,1,78,15.129Z" transform="translate(-65.893)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
