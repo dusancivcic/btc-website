@@ -28,6 +28,21 @@
   <body>
     <section class="hero-section">
       <div class="hero-container">
+            <div id="menuToggle">
+              <input type="checkbox" />
+    
+              <span></span>
+              <span></span>
+              <span></span>
+    
+              <ul id="menu">
+                <a href="#"><li>Home</li></a>
+                <a href="#"><li>Order</li></a>
+                <a href="#menu-container"><li>Specials</li></a>
+                <a href="#botbar-container"><li>Contact</li></a>
+              </ul>
+            </div>
+         
         <div class="nav-bar">
           <div>
             <img src="images/bitcoin.svg" class="bitcoin-logo" alt="" />
@@ -59,7 +74,7 @@
           </div>
           <div class="hero-content-two">
             <form class="form">
-            <div class="form-one">
+         
                 <img src="images/btclogo.svg" class="btc-logo" alt="" />
                 <label class="label" for="btc">Send</label>
                 <input
@@ -386,14 +401,8 @@
                   <option value="Zambia">Zambia</option>
                   <option value="Zimbabwe">Zimbabwe</option>
                 </select>
-            </div>
-              <input
-                class="submit-button"
-                type="submit"
-                name=""
-                id=""
-                value="Submit"
-              />
+           
+             <button  class="submit-button">Submit</button>
             </form>
           </div>
         </div>
@@ -434,7 +443,7 @@
       <div class="about-us-container">
         <div class="about-us-content">
           <h2>About Us</h2>
-          <p>
+          <p class="about-us-text">
             Founded in 2013, we provide a quick, easy and safe service to anyone
             looking to buy or sell Bitcoin. Whether you're about to make your
             first investment in Bitcoin or you're an institution looking to
@@ -447,30 +456,30 @@
             drastically changing the global financial landscape, to become part
             of this movement, start investing today.
           </p>
-          <div class="about-us-cards">
-            <div class="about-us-card">
-              <img src="images/customer-review.svg" alt="" />
-              <h4>4486</h4>
-              <p>Satisfied Customers</p>
-            </div>
-
-            <div class="about-us-card">
-              <img src="images/btc.svg" alt="" />
-              <h4>20392</h4>
-              <p>BTC Traded</p>
-            </div>
-
-            <div class="about-us-card">
-              <img src="images/check.svg" alt="" />
-              <h4>7271</h4>
-              <p>Trades Completed</p>
-            </div>
-
-            <div class="about-us-card card4">
-              <img src="images/stars.svg" alt="" />
-              <h4>2806</h4>
-              <p>Positive Reviews</p>
-            </div>
+          <div class="grid">
+            <div class="grid-item">
+                   <img src="images/customer-review.svg" alt="" />
+                   <h4>4486</h4>
+                   <p>Satisfied Customers</p>
+                 </div>
+            <div class="grid-item">
+                   <img src="images/btc.svg" alt="" />
+                   <h4>20392</h4>
+                   <p>BTC Traded</p>
+                 </div>
+            <div class="grid-item">
+                   <img src="images/check.svg" alt="" />
+                   <h4>7271</h4>
+                   <p>Trades Completed</p>
+                 </div>
+           <div class="grid-item grid4" id="grid4">
+                   <img src="images/stars.svg" class="stars" id="stars" alt="" />
+                   <h4>2806</h4>
+                   <p>Positive Reviews</p>
+                 </div>
+            
+           </div>
+          
           </div>
         </div>
       </div>
@@ -536,11 +545,12 @@
       </div>
     </section>
     <section class="footer-section">
-      <div class="footer-container-one">
+      <div class="footer-container">
+      <div class="footer-container1">
         <img class="bitcoin-logo" src="images/bitcoin.svg" alt="" />
         <p class="copyright">© 2020 Craft Kitties All Rights Reserved.</p>
       </div>
-      <div class="footer-container-two">
+      <div class="footer-container2">
         <div class="footer-links">
           <a class="footer-link" href="">Home</a>
           <a class="footer-link" href="">Services</a>
@@ -554,6 +564,7 @@
           <a class="term" id="term-two" href="">Terms of Services</a>
         </div>
       </div>
+    </div>
     </section>
     <script src="script.js"></script>
   </body>
